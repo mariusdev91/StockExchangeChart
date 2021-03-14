@@ -51,7 +51,7 @@ function setURL() {
     return url;
 }
 
-/*functiont that get the data from the API*/
+/*functiont that gets the data from the API*/
 async function getData() {
     const xLabels = [], ylabels = [];
     let url = setURL();
